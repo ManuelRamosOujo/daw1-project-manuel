@@ -1,0 +1,114 @@
+*{
+    font-family: Verdana, sans-serif;
+    color: #B50DDB;
+    text-decoration: none;
+}
+
+body>header{
+    background-color: black;
+    height: 8em;
+    margin-bottom: 0.5em;
+}
+
+body>footer{
+    background-color: black;
+    height: 3em;
+    margin-top: 0.5em;
+}
+
+body>header>h1>a{
+    font-family: 'Courier New';
+    color: #249FF0;
+    font-size: 3em;
+}
+
+body>header>p{
+    margin: 1em;
+}
+
+body h2[id="top"]{
+    margin: 0px;
+    height: 8em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+body h2[id="bottom"]{
+    height: 3em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+body figure:last-child{
+    height: 3em;
+}
+
+body figure[id=A]{
+    border-color: black;
+    border-radius: 10px;
+    border-style: groove;
+    margin: 0.5em;
+    width: 350px;
+    height: 450px;
+    
+}
+
+body figure[id=A] h2, body figure[id=A] h2>a{
+    color: #56C0DB;
+    display: flex;
+    justify-content: center;
+}
+
+body figure[id=B] h2, body figure[id=B] h2>a{
+    color: #DB9555;
+    display: flex;
+    justify-content: center;
+}
+
+body figure[id=C] h2, body figure[id=C] h2>a{
+    color: #A0DB4B;
+    display: flex;
+    justify-content: center;
+}
+
+
+body img{
+    height: 260px;
+    width: 350px;
+}
+
+body figure[id=B]{
+    border-color: black;
+    border-radius: 10px;
+    border-style: groove;
+    margin: 0.5em;
+    width: 350px;
+    height: 450px;
+    color: #DB9555;
+}
+
+body figure[id=C]{
+    border-color: black;
+    border-radius: 10px;
+    border-style: groove;
+    margin: 0.5em;
+    width: 350px;
+    height: 450px;
+    color: #A0DB4B;
+}
+
+body footer>p[id=nombre]{
+    word-spacing: 0.1em;
+    
+}
+
+body>article{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
+
