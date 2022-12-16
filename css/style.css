@@ -109,6 +109,20 @@ body>article{
     display: flex;
     flex-wrap: wrap;
     align-self: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+body header{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-around;
+}
+
+body footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-around;
 }
 
