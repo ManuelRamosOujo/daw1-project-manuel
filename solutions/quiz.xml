@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <html>
+        <q1>
+            <question>HTML document must always be saved with which of the following?</question>
+            <options>
+                <![CDATA[ 
+                .html
+                .doc
+                .htm
+                both .html and .htm
+                ]]>
+            </options>
+            <answers>both .html and .htm</answers>
+        </q1>
+    </html>
+    <css>
+        <q1>
+            <question>Which of the following CSS property is used to set the backgroun image of an element?</question>
+            <options> <![CDATA[
+                backgrouns-color
+                background-image
+                background-attachament
+                none
+                ]]>
+            </options>
+            <answer>background-image</answer> 
+        </q1>
+        <q2>
+            <question>How to select the elements with the class name example?</question>
+            <options> <![CDATA[
+                example
+                #example
+                class example
+                .example
+                ]]>
+            </options>
+            <answer>.example</answer>
+        </q2>  
+    </css>  
+</quiz>

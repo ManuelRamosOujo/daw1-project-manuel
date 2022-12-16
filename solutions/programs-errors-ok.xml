@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<programs>
+	<program name="firefox" licence1="GPL" licence2="MPU"/><!--Error= Dos atributos con el mismo nombre.-->
+	<program name="LibreOffice"></program ><!--Error= El atributo estaba fuera de la etiqueta.-->
+	<program name="Inkscape" licence="GPL"/><!--Error= El valor del atributo no estaba entre comillas.-->
+	<program name="Chrome"></program><!--Error= El primer program empezaba en mayuscula y el otro no.-->
+	<program name="Edge"/><!--Error= El atributo no estaba definido como "name".-->
+	<producers><!--Error= Esta etiqueta estaba fuera del root.-->
+		<producer>Microsoft</producer><!--Error= La etiqueta estaba mal cerrada. Le faltaba un "/" -->
+	</producers>	
+</programs>
+		

@@ -1,0 +1,5 @@
+quiz.json=1.202B
+quiz.xml=1.253B
+diferencia=4%
+
+Respuesta mcp.txt -> 3. urn:example:Item01
